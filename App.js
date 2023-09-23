@@ -4,23 +4,13 @@ import React, { useState } from 'react';
 import Navbar from './navigation/screens/Navbar';
 import MainContainer from './navigation/MainContainer';
 import Registration from './navigation/screens/Registration';
-import Process from './navigation/screens/Process1';
+import Process from './navigation/screens/Process';
 import Setting from './navigation/screens/Setting';
-// import { Ionicons } from '@expo/vector-icons';
-// import { useFonts } from 'expo-font';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const backendUrl = 'http://127.0.0.1:5000'// Update this with your backend URL
 
-
-
 export default function App() {
-  // const [loaded] = useFonts({
-  //   Ionicons: require('@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf'),
-  // });
-  
-  // if (!loaded) {
-  //   return null;
-  // }
   return (
     <MainContainer/>
     // <View style={styles.container}>

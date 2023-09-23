@@ -10,26 +10,15 @@
     "backend": "python3 api.py"
   },
   "dependencies": {
-    "@expo/vector-icons": "^13.0.0",
     "@react-navigation/bottom-tabs": "^6.5.8",
-    "@react-three/fiber": "^8.14.2",
-    "@types/three": "^0.156.0",
+    "@react-navigation/native": "^6.1.7",
     "expo": "~49.0.7",
-    "expo-font": "^11.6.0",
-    "expo-gl": "~11.1.1",
-    "expo-gl-cpp": "~11.1.0",
     "expo-status-bar": "~1.6.0",
-    "expo-updates": "^0.18.13",
     "react": "18.2.0",
-    "react-native": "0.72.3",
-    "react-native-vector-icons": "^10.0.0",
-    "react-navigation": "^4.4.4",
-    "react-navigation-stack": "^2.10.4",
-    "react-navigation-tabs": "^2.11.2",
-    "three": "^0.156.1"
+    "react-native": "0.72.4"
   },
   "devDependencies": {
-    "metro-react-native-babel-preset": "^0.77.0"
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
